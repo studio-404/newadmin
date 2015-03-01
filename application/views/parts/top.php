@@ -32,24 +32,22 @@
             <li><a href="#">Site users</a></li>
           </ul>
         </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Tools <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Backups</a></li>
-            <li><a href="#">Logs</a></li>
-          </ul>
-        </li>
-         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Settings <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Site settings</a></li>
-          </ul>
-        </li>
+        
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">User: <font color="white">Admin</font></a></li>
-        <li><a href="#">Log out</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">User: <font color="#81b441">Admin</font></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Change password</a></li>
+            <li><a href="#">Site settings</a></li>
+             <li><a href="#">Backups</a></li>
+            <li><a href="#">Logs</a></li>
+             <li><a href="4admin/logout">Log out</a></li>
+          </ul>
+        </li>
+
+       
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->

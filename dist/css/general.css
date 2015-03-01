@@ -1,3 +1,14 @@
+*{
+	margin: 0;
+	padding:0;
+	border:0;
+}
+body{
+	margin:0;
+	padding:0;
+	border:0;
+	font-family: 'mainFont';
+}
 a{
 	color: #999999;
 }
@@ -34,7 +45,8 @@ a{
 	color: #ffffff;
 }
 .navbar-brand{
-	color: #f2f2f2;
+	color: #81b441;
+	background-color: #000000;
 }
 .navbar-brand:hover{
 	color: #ffffff;
@@ -44,9 +56,10 @@ a{
 }
 .navbar-toggle{
 	background-color: #000000;
+	margin-right: 0px;
 }
 .login-form{
-	margin: 0 auto;
+	margin: 100px auto;
 	padding: 0; 
 	width: 400px; 
 	height: auto;
@@ -57,26 +70,44 @@ a{
 }
 .login-header{
 	margin: 0;
-	padding: 0 10px;
+	padding: 0 20px;
 	height: 45px;
 	line-height: 45px;
 	background-color: #232323;
-	color: #ffffff;
+	color: #81b441;
 	text-align: left;
 }
 .login-form .navbar-form{
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
 .login-form .navbar-form .form-group{
+	margin: 0;
+	padding: 0;
 	width: 100%;
 }
 .login-form .navbar-form .form-group .form-control{
-	margin: 10px 0; 
-	width: 100%;
+	padding: 10px;
+	margin: 10px; 
+	/* Firefox */
+	width: -moz-calc(100% - 20px);
+	/* WebKit */
+	width: -webkit-calc(100% - 20px);
+	/* Opera */
+	width: -o-calc(100% - 20px);
+	/* Standard */
+	width: calc(100% - 20px);
+}
+.authButton{
+	margin: 5px 10px 10px 10px;
 }
 
 @media(max-width:480px){
-	
+	.login-form{
+		width: 90% !important;
+		margin-left: 5% !important;
+	}	
 }
 @media(max-width:768px){
 	
@@ -88,5 +119,9 @@ a{
 	.topmenu_center{
 		width: 90% !important;
 		margin-left: 5% !important;
+	}
+	.login-form{
+		width: 60%;
+		margin-left: 20%;
 	}
 }
