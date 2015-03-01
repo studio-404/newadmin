@@ -42,6 +42,10 @@ $route['default_controller'] = "welcome";
 $route['404_override'] = 'errors/page_missing';
 $route['4admin'] = 'admin_home'; 
 $route['4admin/logout'] = 'admin_home/logout'; 
+$route['4admin/topmenu'] = 'admin_menu/topmenu'; 
+$route['4admin/mainmenu'] = 'admin_menu/mainmenu'; 
+$route['4admin/additionalmenu'] = 'admin_menu/additionalmenu'; 
+$route['4admin/managmentmenu'] = 'admin_menu/managmentmenu'; 
 
 
 /* End of file routes.php */

@@ -17,10 +17,10 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Site Managment <span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Top menu</a></li>
-            <li><a href="#">Main menu</a></li>
-            <li><a href="#">Additional menu</a></li>
-            <li><a href="#">Menu managment</a></li>
+            <li><a href="4admin/topmenu">Top menu</a></li>
+            <li><a href="4admin/mainmenu">Main menu</a></li>
+            <li><a href="4admin/additionalmenu">Additional menu</a></li>
+            <li><a href="4admin/managmentmenu">Menu managment</a></li>
           </ul>
         </li>
          <li><a href="#">File Managment</a></li>
