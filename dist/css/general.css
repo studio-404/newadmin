@@ -102,6 +102,21 @@ a{
 .authButton{
 	margin: 5px 10px 10px 10px;
 }
+.content_container{
+	width: 1322px; 
+}
+.content_container .row p{
+	border-bottom: solid 1px #555555;
+	padding-bottom: 5px;
+}
+.footer{
+	margin: 80px 0 0 0;
+}
+.editlink{
+	float: right;
+	color: #555555;
+	font-size: 16px;
+}
 
 @media(max-width:480px){
 	.login-form{
@@ -123,5 +138,9 @@ a{
 	.login-form{
 		width: 60%;
 		margin-left: 20%;
+	}
+	.content_container{
+		width: 90% !important;
+		margin-left: 5% !important;
 	}
 }
